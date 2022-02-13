@@ -74,6 +74,12 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50vh;
+  height: 20vh;
   margin: 1rem;
   padding: 1.5rem;
   text-align: left;
@@ -83,9 +89,9 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
+  background-color: #fff;
 }
 
-.card:hover,
 .card:focus,
 .card:active {
   color: #0070f3;
@@ -113,4 +119,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.buttons{
+  display: flex;
+  justify-content: space-between;
 }
